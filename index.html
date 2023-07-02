@@ -11,14 +11,21 @@
 
 <body>
   <div class="header">
-    <img src="logo_simpsons.png" alt="simpsons logo">
+    <img src="img/logo_simpsons.png" alt="simpsons logo">
     <h1>Guess that quote!</h1>
   </div>
   <div class="main">
     <p class="quote">Loading...</p>
     <div class="buttons">
-      <button>Show Answer</button>
-      <button>Next Quote</button>
+      <button class="show-answer">Show Answer</button>
+      <button class="next-quote">Next Quote</button>
+    </div>
+  </div>
+  <div class="modal hidden">
+    <img class="close" src="img/close-x-transparent.png" alt="close modal">
+    <div class="char-img"></div>
+    <div class="char-name">
+      <p>Name</p>
     </div>
   </div>
 </body>
