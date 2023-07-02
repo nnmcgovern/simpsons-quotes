@@ -1,1 +1,1 @@
-# ui-pattern
+# simpsons-quotes-api
