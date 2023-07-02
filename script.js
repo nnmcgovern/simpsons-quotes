@@ -1,15 +1,3 @@
-const imgDivs = document.querySelectorAll(".img")
-
-imgDivs.forEach(div => {
-  div.addEventListener("click", handleClick)
-})
-
-function handleClick(e) {
-
-}
-
-// --------------------------------------
-
 const baseURL = "https://thesimpsonsquoteapi.glitch.me/quotes"
 const count = 1
 const modal = document.querySelector(".modal")
@@ -19,6 +7,7 @@ const buttonNext = document.querySelector(".next-quote")
 
 buttonAnswer.addEventListener("click", handleClickAnswer)
 buttonClose.addEventListener("click", handleClickAnswer)
+buttonNext.addEventListener("click", (e) => { location.reload() })
 
 fetch(`${baseURL}?count=${count}`)
   .then(res => res.json())

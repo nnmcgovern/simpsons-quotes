@@ -13,12 +13,20 @@ img {
   height: 200px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+}
+
 h1 {
-  display: inline;
+  /* display: inline; */
+  font-family: "Lilita One";
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-left: 30px;
 }
 
 .main {
-  /* border: solid red; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -28,10 +36,19 @@ h1 {
 }
 
 .quote {
-  border: solid blue;
   max-width: 80%;
   font-size: 40px;
   text-align: center;
+  font-family: Nunito;
+}
+
+button {
+  font-family: "Lilita One";
+  font-size: 20px;
+  background-color: rgb(255, 199, 33);
+  border: solid #000000;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .modal {
@@ -41,15 +58,16 @@ h1 {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: white;
+  background-color: rgb(255, 199, 33);
+  border: solid black 5px;
+  border-radius: 20px;
 
   height: 500px;
   width: 500px;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
+  margin-top: -225px;
   margin-left: -250px;
-  border: solid green;
 }
 
 .hidden {
@@ -67,12 +85,12 @@ h1 {
 }
 
 .char-img {
-  border: solid purple;
   height: 400px;
   width: 400px;
   background-size: cover;
 }
 
 .char-name {
-  font-size: 25px;
+  font-size: 30px;
+  font-family: "Lilita One";
 }
