@@ -1,1 +1,1 @@
-# simpsons-quotes-api
+# simpsons-quotes
